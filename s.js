@@ -10,7 +10,7 @@ function createOverlay() {
   overlay.style.left = '0';
   overlay.style.width = '100%';
   overlay.style.height = '100%';
-  overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.2)'; // transparent
+  overlay.style.backgroundColor = 'transparent'; // transparent
   overlay.style.zIndex = '9999';
   overlay.style.cursor = 'pointer';
 
