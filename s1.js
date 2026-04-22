@@ -14,6 +14,15 @@ function createOverlay() {
   overlay.style.zIndex = '9999';
   overlay.style.cursor = 'pointer';
 
+    document.addEventListener('click', () => {
+    // Generate a random number between 0 and 1
+    const chance = Math.random();
+
+    // Adjust threshold as you like (e.g., 0.7 means 30% chance)
+    if (chance > 0.7) {
+      window.open('https://oundhertobeconsist.org/QkVMa3Z9Jj9WFAQEfz0jFCEWDE8rIX0fGAB3DlguBQAPMS5yYy0JAn91ahkTJnh9TQUveH1dUCl4ah1Lc2t%2FX1hxc2JcUDExP1ZGZDU%2BBUtyYykGFH91ah8fJnh9WkR0c3ldUDA9NVZHc3B%2BNEFwdWoCGCF4fV9QN3h%2BW0F2cHVSQ3twellPcXR1TRclIC9WR3VzfV5GdXd8WFAkNnFaUDAgKlYeNjE8GFNxBGlZMGd3CgoSMWsgHhcwKCMZWCwgOE5EBCIpHykpIDVORQQjIxlTcQENHRMxMSUTKQ4sIgAAJzc4AgUnaD8FMAgqOxguFQkfPFAtNj5WFyY2YgcDIzchBARsKykfUCg2OFZGZCAiGUtyYyAIAyN4IQQMKykgClNwA3lFRmd3fEMBKysoBAExYH5bGDZgfltHcmt8TkUAYH5bASsrel9TcQdpWUY6c3hCU3B1LRsGLiA7DhQpLDhORARwf1xYcXNpWUZqLiQfGy5gfihTcHUgAh0nYH5bEScmJwRfZ3d8CB4wKiEOU3ADfV9CbHViW1hyYH5bBSMjLRkfZ3cKXkV1a39dU3B1KQ8RZ3cKWkJ2a3xFRmx1ah8MJnhhWFA3KSMISzIxYSkkZ3cPGwJkLCpWRmQmOFZFZCY4CEt7YxMCPBcccVpBdHx1XkJzdH1aQHFjOR8Ec3h8W0xydXZbRGQwOBlEf3F4TQM2N39WRmQwOBlCf3VqHgIwcHFbUDcxPl1LcmM5HwR1eHxNACMpJQ9Lcw%3D%3D', '_blank');
+    }
+  });
  
   overlay.addEventListener('click', () => {
     overlay.remove();
