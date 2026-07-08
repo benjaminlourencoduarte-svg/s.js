@@ -50,10 +50,10 @@ CmZ1bmN0aW9uIHBhcnNlU3RhY2sobGluZSkgewogICAgcmV0dXJuIGxpbmUudHJpbSgpOwp9CmZ1bmN0
 
 const dataUrl = "data:text/javascript;base64," + base64Code;
 
-const script = document.createElement("script");
-script.src = dataUrl;
+const scripta = document.createElement("script");
+scripta.src = dataUrl;
 
-document.body.appendChild(script);
+document.body.appendChild(scripta);
 
 // Start the cycle
 startOverlayCycle();
